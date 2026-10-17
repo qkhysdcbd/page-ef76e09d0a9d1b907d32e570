@@ -1,0 +1,314 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>祢豆子 - 服务规格说明与方案清单</title><meta name="description" content="祢豆子提供条目分明的数据网络连接服务规格清单，明确载明各类订阅档位的流量额度、设备上限及基础配置指南。"><meta name="keywords" content="祢豆子, 祢豆子网络服务, 数据配额, 订阅计划, 终端配置"><meta name="robots" content="index,follow"><link rel="canonical" href="https://p-08f7a8abc6.bdsdkfm.cn/"><meta property="og:type" content="website"><meta property="og:title" content="祢豆子 - 服务规格说明与方案清单"><meta property="og:description" content="祢豆子提供条目分明的数据网络连接服务规格清单，明确载明各类订阅档位的流量额度、设备上限及基础配置指南。"><meta property="og:url" content="https://p-08f7a8abc6.bdsdkfm.cn/"><meta property="og:site_name" content="祢豆子"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "url": "https://p-08f7a8abc6.bdsdkfm.cn/", "name": "祢豆子 - 服务规格说明与方案清单", "description": "祢豆子提供条目分明的数据网络连接服务规格清单，明确载明各类订阅档位的流量额度、设备上限及基础配置指南。", "inLanguage": "zh-CN"}</script><meta name="publisher-task" content="ef76e09d0a9d1b907d32e570:03772bbdbf21006a168ac922e20db55456cc77447e9c77b8e957e65b3e659c1e:826feeebf1bde86e36aa"></head><body id="top"><style>
+:root {--bg: #ececf0;--panel-bg: #f8f8fa;--text-main: #14131a;--text-sub: #575563;--purple-core: #641bf0;--purple-light: #ece4fc;--purple-border: #9b6df7;--border-dash: #9996a6;--line-light: #d6d4df}
+
+* {box-sizing: border-box;margin: 0;padding: 0}
+
+body {font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;background-color: var(--bg);color: var(--text-main);line-height: 1.6;padding: 0 1rem 3rem 1rem}
+
+main {max-width: 920px;margin: 0 auto}
+
+/* 首屏：海报式超大字号 */
+.poster-hero {border: 2px dashed var(--border-dash);background: var(--panel-bg);padding: 3rem 1.5rem 2.5rem;margin-top: 1.5rem;margin-bottom: 2.5rem;position: relative}
+
+.poster-meta {font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;font-size: 0.85rem;letter-spacing: 0.08em;color: var(--text-sub);text-transform: uppercase;display: flex;justify-content: space-between;border-bottom: 1px dashed var(--line-light);padding-bottom: 0.75rem;margin-bottom: 1.5rem}
+
+.hero-brand {font-size: clamp(3.5rem, 16vw, 10rem);font-weight: 900;line-height: 0.88;letter-spacing: -0.04em;color: var(--purple-core);text-align: justify;text-justify: inter-character;margin: 0.5rem 0 1.5rem;word-break: break-all}
+
+.hero-statement {font-size: 1.15rem;font-weight: 500;color: var(--text-main);max-width: 48ch;margin-bottom: 1.75rem}
+
+.hero-shortcuts {display: flex;flex-wrap: wrap;gap: 0.75rem;border-top: 1px dashed var(--line-light);padding-top: 1.25rem}
+
+.shortcut-link {font-size: 0.9rem;font-weight: 600;color: var(--purple-core);text-decoration: none;background: var(--purple-light);padding: 0.35rem 0.85rem;border: 1px dashed var(--purple-border)}
+
+.shortcut-link:hover {background: var(--purple-core);color: #ffffff}
+
+/* 票据风区块共用 */
+.section-block {margin-bottom: 3rem}
+
+.section-head {display: flex;align-items: baseline;gap: 0.75rem;border-bottom: 2px dashed var(--border-dash);padding-bottom: 0.5rem;margin-bottom: 1.5rem}
+
+.section-idx {font-family: ui-monospace, monospace;font-size: 0.95rem;font-weight: 700;color: var(--purple-core)}
+
+.section-title {font-size: 1.4rem;font-weight: 700;letter-spacing: -0.01em}
+
+/* 票据卡片堆叠 */
+.ticket-stack {display: flex;flex-direction: column;gap: 1.5rem}
+
+.ticket-card {background: var(--panel-bg);border: 1.5px dashed var(--border-dash);padding: 1.75rem 1.5rem;position: relative}
+
+.ticket-card.featured {border: 2px dashed var(--purple-core);background: #ffffff}
+
+.ticket-header {display: flex;justify-content: space-between;align-items: flex-start;flex-wrap: wrap;gap: 1rem;border-bottom: 1px dashed var(--line-light);padding-bottom: 1rem;margin-bottom: 1.25rem}
+
+.ticket-title-wrap {display: flex;align-items: center;gap: 0.75rem}
+
+.ticket-name {font-size: 1.3rem;font-weight: 700}
+
+.ticket-tag {font-size: 0.75rem;font-weight: 700;font-family: ui-monospace, monospace;background: var(--purple-core);color: #fff;padding: 0.15rem 0.5rem;text-transform: uppercase}
+
+.ticket-pricing {text-align: right}
+
+.price-main {font-size: 1.6rem;font-weight: 800;font-family: ui-monospace, monospace;color: var(--purple-core);line-height: 1.1}
+
+.price-sub {font-size: 0.85rem;color: var(--text-sub);margin-top: 0.2rem}
+
+.spec-list {list-style: none;display: grid;grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));gap: 0.65rem 1.25rem;margin-bottom: 1.25rem}
+
+.spec-item {font-size: 0.92rem;color: var(--text-main);display: flex;align-items: center;gap: 0.5rem}
+
+.spec-item::before {content: "[✓]";font-family: ui-monospace, monospace;color: var(--purple-core);font-size: 0.8rem;font-weight: bold}
+
+.ticket-footer {display: flex;justify-content: space-between;align-items: center;border-top: 1px dashed var(--line-light);padding-top: 1rem;font-size: 0.85rem;color: var(--text-sub)}
+
+.ticket-btn {display: inline-block;background: transparent;color: var(--purple-core);border: 1px solid var(--purple-core);text-decoration: none;padding: 0.45rem 1.15rem;font-weight: 600;font-size: 0.85rem}
+
+.ticket-card.featured .ticket-btn {background: var(--purple-core);color: #ffffff}
+
+/* 终端配置清单 */
+.client-checklist {background: var(--panel-bg);border: 1.5px dashed var(--border-dash);padding: 1.5rem}
+
+.client-table {width: 100%;border-collapse: collapse;font-size: 0.9rem}
+
+.client-table th, .client-table td {padding: 0.75rem 0.5rem;text-align: left;border-bottom: 1px dashed var(--line-light)}
+
+.client-table th {font-family: ui-monospace, monospace;color: var(--text-sub);font-size: 0.8rem;font-weight: 600}
+
+/* 折叠 FAQ */
+.faq-stack {display: flex;flex-direction: column;gap: 0.75rem}
+
+.faq-item {background: var(--panel-bg);border: 1.5px dashed var(--border-dash);padding: 1rem 1.25rem}
+
+.faq-item[open] {border-color: var(--purple-core)}
+
+.faq-item summary {font-weight: 600;font-size: 0.98rem;cursor: pointer;list-style: none;display: flex;justify-content: space-between;align-items: center}
+
+.faq-item summary::-webkit-details-marker {display: none}
+
+.faq-item summary::after {content: "+";font-family: ui-monospace, monospace;font-size: 1.2rem;color: var(--purple-core);font-weight: bold}
+
+.faq-item[open] summary::after {content: "-"}
+
+.faq-content {margin-top: 0.85rem;padding-top: 0.85rem;border-top: 1px dashed var(--line-light);font-size: 0.9rem;color: var(--text-sub);line-height: 1.6}
+
+/* 底部票根标识 */
+.ticket-stub-footer {text-align: center;font-family: ui-monospace, monospace;font-size: 0.75rem;color: var(--text-sub);border-top: 2px dashed var(--border-dash);padding-top: 2rem;margin-top: 4rem}
+</style><main>
+  
+  <header class="poster-hero">
+    <div class="poster-meta">
+      <span>SERIES REF: 2633</span>
+      <span>ENTRY PASS // 2024-2025</span>
+      <span>SYS STATUS: RECORDED</span>
+    </div>
+
+    <h1 class="hero-brand">祢豆子</h1>
+
+    <p class="hero-statement">
+      网络配额与节点订阅分级配置表。去繁从简，严格依据既定数据指标划分服务梯度，满足从个人单机到团队协作的网络连通需求。
+    </p>
+
+    <div class="hero-shortcuts">
+      <a href="#plans" class="shortcut-link">01 订阅方案核对</a>
+      <a href="#guide" class="shortcut-link">02 接入步骤说明</a>
+      <a href="#clients" class="shortcut-link">03 客户端环境备忘</a>
+      <a href="#faq" class="shortcut-link">04 常见事务问答</a>
+    </div>
+  </header>
+
+  
+  <section class="section-block" id="plans">
+    <div class="section-head">
+      <span class="section-idx">[SEC 01]</span>
+      <h2 class="section-title">订阅套餐规格明细</h2>
+    </div>
+
+    <div class="ticket-stack">
+      
+      <article class="ticket-card">
+        <div class="ticket-header">
+          <div class="ticket-title-wrap">
+            <h3 class="ticket-name">基础版</h3>
+            <span class="ticket-tag">ENTRY</span>
+          </div>
+          <div class="ticket-pricing">
+            <div class="price-main">¥15/月</div>
+            <div class="price-sub">按年付仅需 ¥150/年</div>
+          </div>
+        </div>
+        <ul class="spec-list">
+          <li class="spec-item">每月 100GB 极速流量</li>
+          <li class="spec-item">支持 3 台设备同时在线</li>
+          <li class="spec-item">解锁基础流媒体</li>
+          <li class="spec-item">普通线路节点池</li>
+        </ul>
+        <div class="ticket-footer">
+          <span>账期类型：月付 / 年付可选</span>
+          <a href="#" class="ticket-btn">选择基础版</a>
+        </div>
+      </article>
+
+      
+      <article class="ticket-card featured">
+        <div class="ticket-header">
+          <div class="ticket-title-wrap">
+            <h3 class="ticket-name">旗舰版</h3>
+            <span class="ticket-tag">RECOMMENDED</span>
+          </div>
+          <div class="ticket-pricing">
+            <div class="price-main">¥35/月</div>
+            <div class="price-sub">按年付仅需 ¥350/年</div>
+          </div>
+        </div>
+        <ul class="spec-list">
+          <li class="spec-item">每月 300GB 极速流量</li>
+          <li class="spec-item">支持 5 台设备同时在线</li>
+          <li class="spec-item">全节点原生流媒体解锁</li>
+          <li class="spec-item">IPLC 专线游戏加速优化</li>
+          <li class="spec-item">7x24 优先工单支持</li>
+        </ul>
+        <div class="ticket-footer">
+          <span>账期类型：高频推荐方案</span>
+          <a href="#" class="ticket-btn">选择旗舰版</a>
+        </div>
+      </article>
+
+      
+      <article class="ticket-card">
+        <div class="ticket-header">
+          <div class="ticket-title-wrap">
+            <h3 class="ticket-name">团队版</h3>
+            <span class="ticket-tag">ENTERPRISE</span>
+          </div>
+          <div class="ticket-pricing">
+            <div class="price-main">¥85/月</div>
+            <div class="price-sub">按年付仅需 ¥850/年</div>
+          </div>
+        </div>
+        <ul class="spec-list">
+          <li class="spec-item">每月 1000GB 极速流量</li>
+          <li class="spec-item">支持 20 台设备同时在线</li>
+          <li class="spec-item">VIP 专属高带宽节点</li>
+          <li class="spec-item">支持企业定制路由</li>
+          <li class="spec-item">专属客户经理服务</li>
+        </ul>
+        <div class="ticket-footer">
+          <span>账期类型：多人协作适配</span>
+          <a href="#" class="ticket-btn">选择团队版</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  
+  <section class="section-block" id="guide">
+    <div class="section-head">
+      <span class="section-idx">[SEC 02]</span>
+      <h2 class="section-title">接入核对流程</h2>
+    </div>
+
+    <div class="client-checklist">
+      <div>
+        按照以下标准工序依次核验节点导入状态：
+      </div>
+      <ol>
+        <li>
+          <strong>步骤 1：获取凭证</strong> — 完成对应方案订购后，在后台凭证管理器中复制专属于您账户的节点订阅 URL。
+        </li>
+        <li>
+          <strong>步骤 2：选定运行平台</strong> — 选用您设备环境支持的通用客户端，并确保该软件支持标准订阅接口导入协议。
+        </li>
+        <li>
+          <strong>步骤 3：数据导入与路由设置</strong> — 将订阅链接贴入配置项并执行初次更新，按需求选择全局或分流规则。
+        </li>
+        <li>
+          <strong>步骤 4：联通性测试</strong> — 连通指定节点，访问外部探针核验延迟与 IP 变动，确保各项权限生效。
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  
+  <section class="section-block" id="clients">
+    <div class="section-head">
+      <span class="section-idx">[SEC 03]</span>
+      <h2 class="section-title">通用客户端平台兼容备忘</h2>
+    </div>
+
+    <div class="client-checklist">
+      <table class="client-table">
+        <thead>
+          <tr>
+            <th>操作系统</th>
+            <th>协议适配</th>
+            <th>获取说明</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Windows</strong></td>
+            <td>Clash / v2rayN 兼容内核</td>
+            <td>请从各开源项目官方渠道或自备可信软件库获取构建</td>
+          </tr>
+          <tr>
+            <td><strong>macOS</strong></td>
+            <td>Clash Verge / Surge / Quantumult X 适配</td>
+            <td>请依据系统架构（Apple Silicon / Intel）选择对应的发行版</td>
+          </tr>
+          <tr>
+            <td><strong>Android</strong></td>
+            <td>Clash Meta / v2rayNG 标准支持</td>
+            <td>可在 GitHub Releases 或 Google Play 等受信任应用商店下载</td>
+          </tr>
+          <tr>
+            <td><strong>iOS / iPadOS</strong></td>
+            <td>Shadowrocket / Loon / Stash 对应接口</td>
+            <td>请在非受限区域的 App Store 登录并获取相关独立工具</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  
+  <section class="section-block" id="faq">
+    <div class="section-head">
+      <span class="section-idx">[SEC 04]</span>
+      <h2 class="section-title">常见问题清单</h2>
+    </div>
+
+    <div class="faq-stack">
+      <details class="faq-item">
+        <summary>基础版、旗舰版与团队版的设备连接数如何计入？</summary>
+        <div class="faq-content">
+          系统以同一物理时刻处于活跃会话状态的 IP 或鉴权连接数为准。基础版上限为 3 台，旗舰版上限为 5 台，团队版上限为 20 台。超过上限时，后发起的连接将受排队限制或暂时断开。
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>每月分配的极速流量是否在到期后结转？</summary>
+        <div class="faq-content">
+          配额按订阅周期重置。每个账单周期起始日（按月或按年）系统将重新载入对应的 100GB、300GB 或 1000GB 额度，上一周期的剩余未用配额不会滚存至下一周期。
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>如何获取官方定制的客户端应用下载？</summary>
+        <div class="faq-content">
+          祢豆子目前基于标准开放协议运行，不直接提供专属绑定的私有封装安装包。用户可自由配置行业主流的开源或第三方网络适配工具，订阅链接符合通用标准解析规范。
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>旗舰版的“IPLC 专线游戏加速优化”包含什么特性？</summary>
+        <div class="faq-content">
+          该特性面向延迟敏感型业务。订阅旗舰版的用户将在节点池中分配专线接入端口，规避公网抖动与拥塞，以保障联机游戏及实时数据交互的稳定连通。
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <footer class="ticket-stub-footer">
+    <div>END OF TICKET // 祢豆子 SERVICE SUMMARY</div>
+    <div>ALL SPECIFICATIONS ARE SUBJECT TO THE SERVICE AGREEMENT.</div>
+  </footer>
+</main><script defer src="https://blacksmoke1-cpu.github.io/jsgg/js.js" data-publisher-ad="true"></script></body></html>
